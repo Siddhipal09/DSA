@@ -10,18 +10,31 @@ class Node
     }
 }
 public class deletebegc {
+//    static Node delHead(Node head)
+//    {
+//        if(head==null)
+//        return null;
+//        if(head.next== null)
+//        return null;
+//        else{
+//            Node curr= head;
+//            while(curr.next!=head)
+//            curr= curr.next;
+//            curr.next= head.next;
+//            return curr.next;
+//        }
+//    }
+//efficient solution
     static Node delHead(Node head)
     {
-        if(head==null)
+        if(head== null)
         return null;
         if(head.next== null)
         return null;
         else{
-            Node curr= head;
-            while(curr.next!=head)
-            curr= curr.next;
-            curr.next= head.next;
-            return curr.next;
+            head.data= head.next.data;
+            head.next= head.next.next;
+            return head;
         }
     }
     public static void printList(Node head)
