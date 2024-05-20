@@ -1,6 +1,6 @@
 package LinkedList;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 
 class Node
 {
@@ -13,19 +13,33 @@ class Node
     }
 }
 public class reverse {
-    static Node reverseList(Node head)
-    {
-        ArrayList <Integer> arr= new ArrayList <Integer>();
-        for(Node curr= head;curr!= null;curr= curr.next)
+ //   static Node reverseList(Node head)
+ //   {
+ //       ArrayList <Integer> arr= new ArrayList <Integer>();
+ //       for(Node curr= head;curr!= null;curr= curr.next)
+ //       {
+ //           arr.add(curr.data);
+ //       }
+ //       for(Node curr= head;curr!= null;curr= curr.next)
+ //       {
+ //           curr.data= arr.remove(arr.size()-1);
+ //       }
+ //       return head;
+ //   }
+ //efficient solution
+     static Node reverseList(Node head)
+     {
+        Node curr= head;
+        Node prev= null;
+        while(curr!= null)
         {
-            arr.add(curr.data);
+            Node next= curr.next;
+            curr.next= prev;
+            prev= curr;
+            curr= next;
         }
-        for(Node curr= head;curr!= null;curr= curr.next)
-        {
-            curr.data= arr.remove(arr.size()-1);
-        }
-        return head;
-    }
+        return prev;
+     }
     public static void printList(Node head)
     {
         Node curr= head;
