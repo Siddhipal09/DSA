@@ -1,7 +1,9 @@
 package Stack;
 
-public class largestareahistogram {
-      static void getMaxArea(int arr[])
+public class largesthistogram {
+    
+
+static void getMaxArea(int arr[])
       {
         int res=0;
         int n= arr.length;
@@ -35,3 +37,4 @@ public class largestareahistogram {
         getMaxArea(arr);
       }
 }
+
