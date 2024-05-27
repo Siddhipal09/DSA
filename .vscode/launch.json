@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "largestrec",
+            "request": "launch",
+            "mainClass": "Stack.largestrec",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "largesthistogram",
             "request": "launch",
             "mainClass": "Stack.largesthistogram",
