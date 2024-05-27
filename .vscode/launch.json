@@ -1,0 +1,413 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "deleteenddll",
+            "request": "launch",
+            "mainClass": "DoublyLinkedList.deleteenddll",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "commonspan",
+            "request": "launch",
+            "mainClass": "Hashing.commonspan",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "countdistinct",
+            "request": "launch",
+            "mainClass": "Hashing.countdistinct",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "countdistinctele",
+            "request": "launch",
+            "mainClass": "Hashing.countdistinctele",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "frequency",
+            "request": "launch",
+            "mainClass": "Hashing.frequency",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "intersection",
+            "request": "launch",
+            "mainClass": "Hashing.intersection",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "longestsubarray",
+            "request": "launch",
+            "mainClass": "Hashing.longestsubarray",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "longestsubarray1",
+            "request": "launch",
+            "mainClass": "Hashing.longestsubarray1",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "occurrences",
+            "request": "launch",
+            "mainClass": "Hashing.occurrences",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "occurrences1",
+            "request": "launch",
+            "mainClass": "Hashing.occurrences1",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "pair",
+            "request": "launch",
+            "mainClass": "Hashing.pair",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "Hashing.subarray",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "subarraysum",
+            "request": "launch",
+            "mainClass": "Hashing.subarraysum",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "subsequence",
+            "request": "launch",
+            "mainClass": "Hashing.subsequence",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "union",
+            "request": "launch",
+            "mainClass": "Hashing.union",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "LRUCache",
+            "request": "launch",
+            "mainClass": "LinkedList.LRUCache",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "deletebeg",
+            "request": "launch",
+            "mainClass": "LinkedList.deletebeg",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "boundaryelements",
+            "request": "launch",
+            "mainClass": "Matrix.boundaryelements",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "median",
+            "request": "launch",
+            "mainClass": "Matrix.median",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "rotatematrix",
+            "request": "launch",
+            "mainClass": "Matrix.rotatematrix",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "Matrix.search",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "snakepattern",
+            "request": "launch",
+            "mainClass": "Matrix.snakepattern",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "spiral",
+            "request": "launch",
+            "mainClass": "Matrix.spiral",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "transpose",
+            "request": "launch",
+            "mainClass": "Matrix.transpose",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "chocolateprob",
+            "request": "launch",
+            "mainClass": "Sorting.chocolateprob",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "hoarepartition",
+            "request": "launch",
+            "mainClass": "Sorting.hoarepartition",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "insertionsort",
+            "request": "launch",
+            "mainClass": "Sorting.insertionsort",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "intersection(1)",
+            "request": "launch",
+            "mainClass": "Sorting.intersection",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "inversion",
+            "request": "launch",
+            "mainClass": "Sorting.inversion",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "kthsmallestelement",
+            "request": "launch",
+            "mainClass": "Sorting.kthsmallestelement",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "lomutopartition",
+            "request": "launch",
+            "mainClass": "Sorting.lomutopartition",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "mergeoverlapping",
+            "request": "launch",
+            "mainClass": "Sorting.mergeoverlapping",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "mergesort1",
+            "request": "launch",
+            "mainClass": "Sorting.mergesort1",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "mergesort2",
+            "request": "launch",
+            "mainClass": "Sorting.mergesort2",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "mindiffarray",
+            "request": "launch",
+            "mainClass": "Sorting.mindiffarray",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "partition",
+            "request": "launch",
+            "mainClass": "Sorting.partition",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "quicksort1",
+            "request": "launch",
+            "mainClass": "Sorting.quicksort1",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "quicksort2",
+            "request": "launch",
+            "mainClass": "Sorting.quicksort2",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "selectionsort",
+            "request": "launch",
+            "mainClass": "Sorting.selectionsort",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "sort1",
+            "request": "launch",
+            "mainClass": "Sorting.sort1",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "sort2",
+            "request": "launch",
+            "mainClass": "Sorting.sort2",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Sorting.test",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "union(1)",
+            "request": "launch",
+            "mainClass": "Sorting.union",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "balancedparanthesis",
+            "request": "launch",
+            "mainClass": "Stack.balancedparanthesis",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "largestareahistogram",
+            "request": "launch",
+            "mainClass": "Stack.largestareahistogram",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "nextgreaterelement",
+            "request": "launch",
+            "mainClass": "Stack.nextgreaterelement",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "previousgreater",
+            "request": "launch",
+            "mainClass": "Stack.previousgreater",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "stockspanproblem",
+            "request": "launch",
+            "mainClass": "Stack.stockspanproblem",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "anagram",
+            "request": "launch",
+            "mainClass": "Strings.anagram",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "kmp",
+            "request": "launch",
+            "mainClass": "Strings.kmp",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "nonrepeating",
+            "request": "launch",
+            "mainClass": "Strings.nonrepeating",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "Strings.palindrome",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "Strings.pattern",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "rabinkarp",
+            "request": "launch",
+            "mainClass": "Strings.rabinkarp",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "repeating",
+            "request": "launch",
+            "mainClass": "Strings.repeating",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "Strings.reverse",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
+            "name": "subsequence(1)",
+            "request": "launch",
+            "mainClass": "Strings.subsequence",
+            "projectName": "DSA_70481623"
+        }
+    ]
+}
