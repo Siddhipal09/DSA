@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverequeue",
+            "request": "launch",
+            "mainClass": "Queue.reverequeue",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "largestrec",
             "request": "launch",
             "mainClass": "Stack.largestrec",
