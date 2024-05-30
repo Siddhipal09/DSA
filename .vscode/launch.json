@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "generatenumber",
+            "request": "launch",
+            "mainClass": "Queue.generatenumber",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "reverequeue",
             "request": "launch",
             "mainClass": "Queue.reverequeue",
