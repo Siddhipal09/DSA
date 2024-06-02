@@ -25,6 +25,7 @@ public class generatenumber {
         System.out.println("ENTER THE NUMBER");
         int n= sc.nextInt();
         generateNumbers(n);
+        
         }finally
         {
             sc.close();

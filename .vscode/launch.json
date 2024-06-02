@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minmax",
+            "request": "launch",
+            "mainClass": "Deque.minmax",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "generatenumber",
             "request": "launch",
             "mainClass": "Queue.generatenumber",
