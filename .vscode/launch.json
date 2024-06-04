@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "height",
+            "request": "launch",
+            "mainClass": "Tree.height",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "maxsubarray",
             "request": "launch",
             "mainClass": "Deque.maxsubarray",
