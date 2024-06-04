@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printknode",
+            "request": "launch",
+            "mainClass": "Tree.printknode",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "height",
             "request": "launch",
             "mainClass": "Tree.height",
