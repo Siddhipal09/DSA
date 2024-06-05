@@ -15,30 +15,51 @@ Node(int K)
 }
 }
 public class linebylinetraversal {
-    static void printLineByLine(Node root)
-    {
+   // static void printLineByLine(Node root)
+   // {
+   //     if(root== null)
+   //     return;
+   //     Queue<Node> q= new LinkedList<Node>();
+   //     q.add(root);
+   //     q.add(null);
+   //     while(q.size()>1)
+   //     {
+   //         Node curr = q.poll();
+   //         if(curr== null)
+   //         {
+   //             System.out.println();
+   //             q.add(null);
+   //         }else{
+   //             System.out.print(curr.Key+" ");
+   //             if(curr.left!= null)
+   //             q.add(curr.left);
+   //             if(curr.right!= null)
+   //             q.add(curr.right);
+   //         }
+   //     }
+   //method2     
+       static void printLineByLine(Node root)
+       {
         if(root== null)
         return;
         Queue<Node> q= new LinkedList<Node>();
         q.add(root);
-        q.add(null);
-        while(q.size()>1)
+        while(q.isEmpty()== false)
         {
-            Node curr = q.poll();
-            if(curr== null)
+            int count = q.size();
+            for(int i=0;i<count;i++)
             {
-                System.out.println();
-                q.add(null);
-            }else{
+                Node curr= q.poll();
                 System.out.print(curr.Key+" ");
                 if(curr.left!= null)
-                q.add(curr.left);
-                if(curr.right!= null)
-                q.add(curr.right);
+                  q.add(curr.left);
+                   if(curr.right!= null)
+                    q.add(curr.right);
             }
+            System.out.println();
         }
-        
-    }
+       }
+       
     public static void main(String[] args) {
          Node root = new Node(10);
         root.left = new Node(20);
