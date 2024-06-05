@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "size",
+            "request": "launch",
+            "mainClass": "Tree.size",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "linebylinetraversal",
             "request": "launch",
             "mainClass": "Tree.linebylinetraversal",
