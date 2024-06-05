@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxwidth",
+            "request": "launch",
+            "mainClass": "Tree.maxwidth",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "balancedtree",
             "request": "launch",
             "mainClass": "Tree.balancedtree",
