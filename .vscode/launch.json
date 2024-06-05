@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "childrensum",
+            "request": "launch",
+            "mainClass": "Tree.childrensum",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "leftview",
             "request": "launch",
             "mainClass": "Tree.leftview",
