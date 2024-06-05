@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "balancedtree",
+            "request": "launch",
+            "mainClass": "Tree.balancedtree",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "childrensum",
             "request": "launch",
             "mainClass": "Tree.childrensum",
