@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "constructtree",
+            "request": "launch",
+            "mainClass": "Tree.constructtree",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "binarytreetodll",
             "request": "launch",
             "mainClass": "Tree.binarytreetodll",
