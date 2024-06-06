@@ -31,6 +31,7 @@ public class constructtree {
         root.right = cTree(in, pre,inIndex+1,ie);
         return root;
     }
+    //inorder traversal
     public static void printList(Node root) {
         if (root != null) {
             printList(root.left);

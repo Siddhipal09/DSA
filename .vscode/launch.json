@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "spiral",
+            "request": "launch",
+            "mainClass": "Tree.spiral",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "constructtree",
             "request": "launch",
             "mainClass": "Tree.constructtree",
