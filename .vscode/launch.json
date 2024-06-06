@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binarytreetodll",
+            "request": "launch",
+            "mainClass": "Tree.binarytreetodll",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "maxwidth",
             "request": "launch",
             "mainClass": "Tree.maxwidth",
