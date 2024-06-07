@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "diameter",
+            "request": "launch",
+            "mainClass": "Tree.diameter",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "spiral",
             "request": "launch",
             "mainClass": "Tree.spiral",
