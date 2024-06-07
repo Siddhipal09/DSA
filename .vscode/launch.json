@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lowestcommonancestor",
+            "request": "launch",
+            "mainClass": "Tree.lowestcommonancestor",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "diameter",
             "request": "launch",
             "mainClass": "Tree.diameter",
