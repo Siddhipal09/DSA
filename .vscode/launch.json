@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "burn",
+            "request": "launch",
+            "mainClass": "Tree.burn",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "lowestcommonancestor",
             "request": "launch",
             "mainClass": "Tree.lowestcommonancestor",
