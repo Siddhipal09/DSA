@@ -37,6 +37,7 @@ public class count {
         root.left.left = new Node(40);
         root.left.right = new Node(50);
         double count= countNode(root);
+        //int count= countNode(root);
         System.out.println(count);
 }
 }
