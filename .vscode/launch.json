@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "deserialize",
+            "request": "launch",
+            "mainClass": "Tree.deserialize",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "serialize",
             "request": "launch",
             "mainClass": "Tree.serialize",
