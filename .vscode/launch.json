@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "serialize",
+            "request": "launch",
+            "mainClass": "Tree.serialize",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "count",
             "request": "launch",
             "mainClass": "Tree.count",
