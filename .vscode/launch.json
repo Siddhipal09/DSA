@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "BST.search",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "preorder",
             "request": "launch",
             "mainClass": "Tree.preorder",
