@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "insert",
+            "request": "launch",
+            "mainClass": "BST.insert",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "search",
             "request": "launch",
             "mainClass": "BST.search",
