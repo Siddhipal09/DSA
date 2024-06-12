@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "delete",
+            "request": "launch",
+            "mainClass": "BST.delete",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "insert",
             "request": "launch",
             "mainClass": "BST.insert",
