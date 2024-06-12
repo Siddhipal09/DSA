@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "floor",
+            "request": "launch",
+            "mainClass": "BST.floor",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "delete",
             "request": "launch",
             "mainClass": "BST.delete",
