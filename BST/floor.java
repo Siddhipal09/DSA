@@ -6,8 +6,10 @@ public class floor {
     Node res= null;
     while(root!= null)
     {
-        if(root.Key== x)
+        if(root.Key== x){
+        System.out.print(root.Key);
         return root;
+        }
         else if(root.Key>x)
         root= root.left;
         else{
