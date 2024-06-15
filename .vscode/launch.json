@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ceilingonleft",
+            "request": "launch",
+            "mainClass": "BST.ceilingonleft",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "floor",
             "request": "launch",
             "mainClass": "BST.floor",
