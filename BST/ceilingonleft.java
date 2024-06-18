@@ -22,7 +22,7 @@ public class ceilingonleft {
         }
     }
     public static void main(String[] args) {
-        int[] arr={2,8,30,15,25,12};
+        int[] arr={2,8,30,15,25,13};
         printCeiling(arr);
     }
 }
