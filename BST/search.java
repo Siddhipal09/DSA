@@ -3,9 +3,11 @@ class Node{
     int Key;
     Node left;
     Node right;
+    int lcount;
     Node(int x)
     {
         Key= x;
+        lcount=0;
     }
 }
 public class search {
