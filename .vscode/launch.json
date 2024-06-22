@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kthsmallest",
+            "request": "launch",
+            "mainClass": "BST.kthsmallest",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "ceilingonleft",
             "request": "launch",
             "mainClass": "BST.ceilingonleft",
