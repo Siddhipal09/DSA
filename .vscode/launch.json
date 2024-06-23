@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pairsum",
+            "request": "launch",
+            "mainClass": "BST.pairsum",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "fixbst",
             "request": "launch",
             "mainClass": "BST.fixbst",
