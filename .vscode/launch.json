@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "topview",
+            "request": "launch",
+            "mainClass": "BST.topview",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "verticaltraversal",
             "request": "launch",
             "mainClass": "BST.verticaltraversal",
