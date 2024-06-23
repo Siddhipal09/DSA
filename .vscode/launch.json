@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "verticalsum",
+            "request": "launch",
+            "mainClass": "BST.verticalsum",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "pairsum",
             "request": "launch",
             "mainClass": "BST.pairsum",
