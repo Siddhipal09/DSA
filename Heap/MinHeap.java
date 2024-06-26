@@ -58,6 +58,22 @@ public class MinHeap{
             minHeapify(smallest);
         }
     }
+    int extractMin()
+    {
+        if(size== 0)
+        return Integer.MAX_VALUE;
+        if(size==1)
+        {
+            size--;
+            return arr[0];
+        }
+           int temp= arr[0];
+            arr[0] = arr[size-1];
+            arr[size-1]= temp;
+            size--;
+            minHeapify(0);
+            return arr[size];
+    }
       
     public static void main(String[] args) {
      //   MinHeap minHeap = new MinHeap(15);
@@ -76,6 +92,9 @@ public class MinHeap{
      minHeap.minHeapify(0);
 
         System.out.println("Heap after minHeapify at index 0:");
+        minHeap.printHeap();
+        minHeap.extractMin();
+        System.out.println("Heap after extractmin at index 0:");
         minHeap.printHeap();
 
     }
