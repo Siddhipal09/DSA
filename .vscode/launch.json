@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinHeap",
+            "request": "launch",
+            "mainClass": "Heap.MinHeap",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "bottomview",
             "request": "launch",
             "mainClass": "BST.bottomview",
