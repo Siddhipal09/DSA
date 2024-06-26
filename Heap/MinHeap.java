@@ -33,6 +33,17 @@ public class MinHeap{
            
         }
     }
+    void decreaseKey(int i, int x)
+    {
+        arr[i] = x;
+        while(i!=0 && arr[parent(i)]> arr[i])
+        {
+            int temp= arr[i];
+            arr[i] = arr[parent(i)];
+            arr[parent(i)]= temp;
+            i= parent(i);
+        }
+    }
     void printHeap() {
         for (int i = 0; i < size / 2; i++) {
             System.out.print("PARENT : " + arr[i]);
@@ -93,8 +104,11 @@ public class MinHeap{
 
         System.out.println("Heap after minHeapify at index 0:");
         minHeap.printHeap();
-        minHeap.extractMin();
+        minHeap.extractMin(); 
         System.out.println("Heap after extractmin at index 0:");
+        minHeap.printHeap();
+        minHeap.decreaseKey(3,25); 
+        System.out.println("Heap after decreaseKey function");
         minHeap.printHeap();
 
     }
