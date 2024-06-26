@@ -44,6 +44,20 @@ public class MinHeap{
             i= parent(i);
         }
     }
+    void delete(int x)
+    {
+        int index = -1;
+        for (int i = 0; i < size; i++) {
+            if (arr[i] == x) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1)
+            return;
+        decreaseKey(index, Integer.MIN_VALUE);
+        extractMin();
+    }
     void printHeap() {
         for (int i = 0; i < size / 2; i++) {
             System.out.print("PARENT : " + arr[i]);
@@ -109,6 +123,9 @@ public class MinHeap{
         minHeap.printHeap();
         minHeap.decreaseKey(3,25); 
         System.out.println("Heap after decreaseKey function");
+        minHeap.printHeap();
+        minHeap.delete(25); 
+        System.out.println("Heap after delete function");
         minHeap.printHeap();
 
     }
