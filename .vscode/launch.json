@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "heapsort",
+            "request": "launch",
+            "mainClass": "Heap.heapsort",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "MinHeap",
             "request": "launch",
             "mainClass": "Heap.MinHeap",
