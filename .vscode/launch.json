@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortk",
+            "request": "launch",
+            "mainClass": "Heap.sortk",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "heapsort",
             "request": "launch",
             "mainClass": "Heap.heapsort",
