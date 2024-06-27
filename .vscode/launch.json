@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "medianstream",
+            "request": "launch",
+            "mainClass": "Heap.medianstream",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "mergeksort",
             "request": "launch",
             "mainClass": "Heap.mergeksort",
