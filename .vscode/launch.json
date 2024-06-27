@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "klargest",
+            "request": "launch",
+            "mainClass": "Heap.klargest",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "buymax",
             "request": "launch",
             "mainClass": "Heap.buymax",
