@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "buymax",
+            "request": "launch",
+            "mainClass": "Heap.buymax",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "sortk",
             "request": "launch",
             "mainClass": "Heap.sortk",
