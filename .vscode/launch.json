@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergeksort",
+            "request": "launch",
+            "mainClass": "Heap.mergeksort",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "kclosest",
             "request": "launch",
             "mainClass": "Heap.kclosest",
