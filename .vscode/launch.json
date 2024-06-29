@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "editdistance",
+            "request": "launch",
+            "mainClass": "DP.editdistance",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "coinchange",
             "request": "launch",
             "mainClass": "DP.coinchange",
