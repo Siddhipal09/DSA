@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lcs",
+            "request": "launch",
+            "mainClass": "DP.lcs",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "medianstream",
             "request": "launch",
             "mainClass": "Heap.medianstream",
