@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lis",
+            "request": "launch",
+            "mainClass": "DP.lis",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "editdistance",
             "request": "launch",
             "mainClass": "DP.editdistance",
