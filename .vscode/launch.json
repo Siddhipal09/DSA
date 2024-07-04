@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mincoins",
+            "request": "launch",
+            "mainClass": "DP.mincoins",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "maxcut",
             "request": "launch",
             "mainClass": "DP.maxcut",
