@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxcut",
+            "request": "launch",
+            "mainClass": "DP.maxcut",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "lis",
             "request": "launch",
             "mainClass": "DP.lis",
