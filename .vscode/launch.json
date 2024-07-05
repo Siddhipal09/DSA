@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "optimalstrategy",
+            "request": "launch",
+            "mainClass": "DP.optimalstrategy",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "knapsack",
             "request": "launch",
             "mainClass": "DP.knapsack",
