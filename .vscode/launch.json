@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "knapsack",
+            "request": "launch",
+            "mainClass": "DP.knapsack",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "minjumps",
             "request": "launch",
             "mainClass": "DP.minjumps",
