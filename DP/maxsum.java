@@ -15,7 +15,7 @@ public class maxsum {
         return dp[n];
     }
     public static void main(String[] args) {
-        int[] arr={8,7,6,10};
+        int[] arr={10,5,15,20,2,30};
         int n= arr.length;
         int result= maxSum(arr,n);
         System.out.println(result);
