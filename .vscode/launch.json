@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "matrixchain",
+            "request": "launch",
+            "mainClass": "DP.matrixchain",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "subsetsum",
             "request": "launch",
             "mainClass": "DP.subsetsum",
