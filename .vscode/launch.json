@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subsetsum",
+            "request": "launch",
+            "mainClass": "DP.subsetsum",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "maxsum",
             "request": "launch",
             "mainClass": "DP.maxsum",
