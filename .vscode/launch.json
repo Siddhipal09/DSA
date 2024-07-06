@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palpartition",
+            "request": "launch",
+            "mainClass": "DP.palpartition",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "matrixchain",
             "request": "launch",
             "mainClass": "DP.matrixchain",
