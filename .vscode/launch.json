@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "allocateminpages",
+            "request": "launch",
+            "mainClass": "DP.allocateminpages",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "palpartition",
             "request": "launch",
             "mainClass": "DP.palpartition",
