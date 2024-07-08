@@ -14,7 +14,7 @@ public class allocateminpages {
             {
                 int res= Integer.MAX_VALUE;
                 for(int p=1;p<j;p++)
-                res= Math.min(res, Math.max(dp[i-1][p], Sum(arr,p,j-1)));
+                 res= Math.min(res, Math.max(dp[i-1][p], Sum(arr,p,j-1)));
                 dp[i][j]= res;
             }
         }
