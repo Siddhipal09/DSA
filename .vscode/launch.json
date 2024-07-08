@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bfs",
+            "request": "launch",
+            "mainClass": "Graph.bfs",
+            "projectName": "DSA_70481623"
+        },
+        {
+            "type": "java",
             "name": "allocateminpages",
             "request": "launch",
             "mainClass": "DP.allocateminpages",
