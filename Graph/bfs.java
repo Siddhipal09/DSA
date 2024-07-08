@@ -15,12 +15,12 @@ public class bfs {
         {
             int u= q.poll();
             System.out.print(u+" ");
-            for(int neighbor: adj.get(u))
+            for(int i: adj.get(u))
             {
-                if(visited[neighbor]== false)
+                if(visited[i]== false)
                 {
-                    visited[neighbor]= true;
-                    q.add(neighbor);
+                    visited[i]= true;
+                    q.add(i);
                 }
             }
         }
