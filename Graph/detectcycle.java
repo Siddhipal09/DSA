@@ -1,7 +1,7 @@
 package Graph;
 
 import java.util.ArrayList;
-
+//undirected graph
 public class detectcycle {
     static boolean DFSRec(ArrayList<ArrayList<Integer>>adj, int s, boolean visited[], int parent)
     {
