@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "detectcycle1",
+      "request": "launch",
+      "mainClass": "Graph.detectcycle1",
+      "projectName": "DSA_70481623"
+    },
+    {
+      "type": "java",
       "name": "detectcycle",
       "request": "launch",
       "mainClass": "Graph.detectcycle",
