@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "shortestpath1",
+      "request": "launch",
+      "mainClass": "Graph.shortestpath1",
+      "projectName": "DSA_70481623"
+    },
+    {
+      "type": "java",
       "name": "detectcycle2",
       "request": "launch",
       "mainClass": "Graph.detectcycle2",
