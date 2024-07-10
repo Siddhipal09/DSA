@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "primalgo",
+      "request": "launch",
+      "mainClass": "Graph.primalgo",
+      "projectName": "DSA_70481623"
+    },
+    {
+      "type": "java",
       "name": "shortestpath1",
       "request": "launch",
       "mainClass": "Graph.shortestpath1",
