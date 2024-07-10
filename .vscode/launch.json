@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "detectcycle2",
+      "request": "launch",
+      "mainClass": "Graph.detectcycle2",
+      "projectName": "DSA_70481623"
+    },
+    {
+      "type": "java",
       "name": "topologicalsort",
       "request": "launch",
       "mainClass": "Graph.topologicalsort",
