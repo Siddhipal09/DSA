@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kosaraju",
+      "request": "launch",
+      "mainClass": "Graph.kosaraju",
+      "projectName": "DSA_70481623"
+    },
+    {
+      "type": "java",
       "name": "dijkstra",
       "request": "launch",
       "mainClass": "Graph.dijkstra",
