@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bellmanford",
+      "request": "launch",
+      "mainClass": "Graph.bellmanford",
+      "projectName": "DSA_70481623"
+    },
+    {
+      "type": "java",
       "name": "kosaraju",
       "request": "launch",
       "mainClass": "Graph.kosaraju",
